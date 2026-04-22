@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class= "container">
+        <input type="date" id="">
+        <p>Ton Age est: <span id="age"></span> annees</p>
+    </div>
+    <script>
+       const datInput = document.querySelector('input') 
+       const age = document.getElementById('age')
+
+       datInput.addEventListener('change', (e) =>(
+            age.innerText = new Date().getFullYear() - new Date(e.target.value).getFullYear()
+       ))
+
+    </script>
+</body>
+</html>
