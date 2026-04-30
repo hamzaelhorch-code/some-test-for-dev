@@ -7,7 +7,7 @@ body {
   display: flex;
   justify-content: center; /* horizontal */
   align-items: center;  /* vertical */
-  background-color: black;
+  background-color: gray;
 }
 
 .container{
@@ -16,6 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     padding: 20px;
+    background-color: #06410F;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
